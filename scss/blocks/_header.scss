@@ -1,0 +1,21 @@
+.header {
+    margin-top: 44px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        &__list {
+            list-style: none;
+            display: flex;
+            gap: 33px;
+        }
+
+        &__links {
+            text-decoration: none;
+            color: #83888F;
+            font-family: 'Barlow', sans-serif;
+        }
+    }
+
+}

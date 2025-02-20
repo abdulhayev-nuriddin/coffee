@@ -1,0 +1,93 @@
+.create {
+    margin-top: 300px;
+
+    &__container {
+
+        &__title {
+            color: #83888F;
+            font-weight: 900;
+        }
+
+        &__lines {
+            width: 1280px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            margin-top: 80px;
+
+            &__line {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background-color: #f4c2a0;
+                transform: translateY(-50%);
+                z-index: 1;
+
+
+
+            }
+
+            &__circle {
+                width: 30px;
+                height: 30px;
+                background-color: #fff;
+                border: 2px solid #4ca6a8;
+                border-radius: 50%;
+                z-index: 2;
+            }
+        }
+
+        &__boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 82px;
+
+            &__box {
+
+
+                &__number {
+                    font-weight: 900;
+                    font-size: 72px;
+                    color: #FDD6BA;
+                }
+
+                &__title {
+                    margin-top: 38px;
+                    margin-bottom: 42px;
+                    font-weight: 900;
+                    font-size: 32px;
+                    color: #333D4B;
+                }
+
+                &__text {
+                    font-family: "barlow";
+                    color: #333D4B;
+                }
+            }
+        }
+
+        &__link {
+            padding: 15px 30px;
+            background-color: #0E8784;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 6px;
+            color: #fff;
+            margin-left: 70px;
+            margin-top: 64px;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.3s ease;
+            }
+
+            &:active {
+                transform: scale(0.9);
+                transition: 0.3s ease;
+            }
+        }
+    }
+}

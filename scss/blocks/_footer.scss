@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 200px;
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 120px;
+        background-color: #2C343E;
+
+        &__img {
+            width: 235px;
+            height: 25px;
+        }
+
+        &__list {
+            display: flex;
+            gap: 33px;
+            list-style: none;
+
+            &__items {
+
+                &__link {
+                    text-decoration: none;
+                    color: #83888F;
+                    font-family: "barlow";
+                }
+            }
+        }
+
+        &__socials {
+            display: flex;
+            gap: 24px;
+        }
+    }
+}

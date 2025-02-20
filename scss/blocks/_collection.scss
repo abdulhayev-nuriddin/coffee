@@ -1,0 +1,54 @@
+.collection {
+    margin-top: 136px;
+
+    &__container {
+        background-image: url(../images/Group\ 13.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &__boxes {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 126px;
+
+            &__box {
+                width: 255px;
+
+                &__img {
+                    width: 255px;
+                    height: 193px;
+                }
+
+                &__title {
+                    margin-top: 71px;
+                    margin-bottom: 24px;
+                    text-align: center;
+                    color: #333D4B;
+                }
+
+                &__text {
+                    text-align: center;
+                    font-family: 'barlow';
+
+                }
+
+                &__img4 {
+                    width: 255px;
+                    height: 197px;
+                    padding-top: 15px;
+                }
+
+                &__title4 {
+                    margin-top: 71px;
+                    margin-bottom: 24px;
+                    text-align: center;
+                    color: #333D4B;
+                }
+
+                &__text4 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
