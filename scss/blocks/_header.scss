@@ -4,6 +4,7 @@
     &__container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         &__list {
             list-style: none;
@@ -17,5 +18,18 @@
             font-family: 'Barlow', sans-serif;
         }
     }
+}
 
+@media only screen and (max-width: 768px){
+
+    .header{
+        margin-top: 40px;
+
+        &__container{
+            max-width: 689px;
+            height: 26px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 }

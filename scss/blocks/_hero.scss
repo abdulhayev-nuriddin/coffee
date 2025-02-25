@@ -3,6 +3,7 @@
 
     &__container {
         background-image: url(../images/Bitmap.png);
+        background-repeat: no-repeat;
         height: 600px;
 
         &__title {
@@ -29,18 +30,46 @@
             border-radius: 6px;
             display: inline-block;
             margin-left: 85px;
+            transition: 0.3s ease;
 
             &:hover {
                 transform: scale(1.1);
-                transition: 0.3s ease;
             }
 
             &:active {
                 transform: scale(0.9);
-                transition: 0.3s ease;
             }
 
         }
     }
 
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        margin-top: 53px;
+
+        &__container {
+            max-width: 689px;
+            height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            align-items: center;
+
+            &__title{
+                padding-left: 53px;
+                padding-top: 104px;
+            }
+
+            &__text{
+                padding-left: 53px;
+                padding-top: 24px;
+                padding-bottom: 40px;
+            }
+
+            &__link{
+                margin-left: 53px;
+            }
+        }
+    }
 }

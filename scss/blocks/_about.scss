@@ -34,6 +34,7 @@
                 background-color: #0E8784;
                 align-items: center;
                 justify-content: center;
+                text-align: center;
                 display: flex;
                 flex-direction: column;
 
@@ -46,6 +47,42 @@
                 &__text {
                     color: #fff;
                     font-family: "barlow";
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about{
+        margin-top: 144px;
+
+        &__container{
+            max-width: 689px;
+
+            &__title{
+                padding-top: 56px;
+            }
+
+            &__cards{
+                flex-direction: column;
+                gap: 24px;
+                align-items: center;
+
+                &__card{
+                    width: 573px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 55px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: left;
+
+                    &__title{
+                        margin-top: 0;
+                    }
                 }
             }
         }
