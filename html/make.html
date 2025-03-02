@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Create</title>
+    <link rel="shortcut icon" href="../images/Shape.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="container header__container">
+            <img src="../images/Group 5.svg" alt="" class="header__container__logo">
+
+            <input type="checkbox" id="menu-toggle" class="header__container__checkbox">
+            <label for="menu-toggle" class="header__container__menu">&#9776;</label>
+
+            <ul class="header__container__list">
+                <li class="header__container__items">
+                    <a href="../index.html" class="header__container__links">HOME</a>
+                </li>
+                <li class="header__container__items">
+                    <a href="../html/info.html" class="header__container__links">ABOUT US</a>
+                </li>
+                <li class="header__container__items">
+                    <a href="#" class="header__container__links">CREATE YOUR PLAN</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    <main>
+        <section class="makehero">
+            <div class="container makehero__container">
+                <h1 class="makehero__title">
+                    Create a plan
+                </h1>
+                <p class="makehero__text">
+                    Build a subscription plan that best fits your needs. We offer an assortment of the best artisan
+                    coffees from around the globe delivered fresh to your door.
+                </p>
+            </div>
+        </section>
+        <section class="makecreate">
+            <div class="container makecreate__container">
+                <div class="makecreate__container__lines">
+                    <div class="makecreate__container__lines__line"></div>
+                    <div class="makecreate__container__lines__circle"></div>
+                    <div class="makecreate__container__lines__circle"></div>
+                    <div class="makecreate__container__lines__circle"></div>
+                    <div class="makecreate__container__lines__circle"></div>
+                </div>
+                <div class="makecreate__container__boxes">
+                    <div class="makecreate__container__boxes__box">
+                        <h1 class="makecreate__container__boxes__box__number">01</h1>
+                        <h1 class="makecreate__container__boxes__box__title">
+                            Pick your <br> coffee
+                        </h1>
+                        <p class="makecreate__container__boxes__box__text">
+                            Select from our evolving range of artisan <br> coffees. Our beans are ethically sourced <br>
+                            and we pay fair prices for them. There are <br> new coffees in all profiles every month <br>
+                            for you to try out.
+                        </p>
+                    </div>
+                    <div class="makecreate__container__boxes__box">
+                        <h1 class="makecreate__container__boxes__box__number">02</h1>
+                        <h1 class="makecreate__container__boxes__box__title">
+                            Choose the <br> frequency
+                        </h1>
+                        <p class="makecreate__container__boxes__box__text">
+                            Customize your order frequency, <br> quantity, even your roast style and grind <br> type.
+                            Pause, skip or cancel your <br> subscription with no commitment <br>through our online
+                            portal.
+                        </p>
+                    </div>
+                    <div class="makecreate__container__boxes__box">
+                        <h1 class="create__container__boxes__box__number">03</h1>
+                        <h1 class="makecreate__container__boxes__box__title">
+                            Receive and <br> enjoy!
+                        </h1>
+                        <p class="makecreate__container__boxes__box__text">
+                            We ship your package within 48 hours, <br> freshly roasted. Sit back and enjoy <br>
+                            award-winning world-class coffees <br> curated to provide a distinct tasting <br>
+                            experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="makeselect">
+            <div class="container makeselect__container">
+                <div class="makeselect__group">
+                    <div class="makeselect__frame" data-question="filter">
+                        <h1 class="makeselect__title">
+                            How do you drink your coffee?
+                        </h1>
+                        <div class="makeselect__cards">
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Capsule
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Compatible with Nespresso systems and similar brewers
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Filter
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Espresso
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Dense and finely ground beans for an intense, flavorful experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="makeselect__frame" data-question="bean">
+                        <h1 class="makeselect__title">
+                            What type of coffee?
+                        </h1>
+                        <div class="makeselect__cards">
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Single Origin
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Distinct, high quality coffee from a specific family-owned farm
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Decaf
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Just like regular coffee, except the caffeine has been removed
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Blended
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Combination of two or three dark roasted beans of organic coffees
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="makeselect__frame" data-question="weight">
+                        <h1 class="makeselect__title">
+                            How much would you like?
+                        </h1>
+                        <div class="makeselect__cards">
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    250g
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Perfect for the solo drinker. Yields about 12 delicious cups.
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    500g
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Perfect option for a couple. Yields about 40 delectable cups.
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    1000g
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Perfect for offices and events. Yields about 90 delightful cups.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="makeselect__frame" data-question="grind">
+                        <h1 class="makeselect__title">
+                            Want us to grind them?
+                        </h1>
+                        <div class="makeselect__cards">
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Wholebean
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Best choice if you cherish the full sensory experience
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Filter
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    For drip or pour-over coffee methods such as V60 or Aeropress
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Cafetiére
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    Course ground beans specially suited for french press coffee
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="makeselect__frame" data-question="delivery">
+                        <h1 class="makeselect__title">
+                            How often should we deliver?
+                        </h1>
+                        <div class="makeselect__cards">
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Every week
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    $7.20 per shipment. Includes free first-class shipping.
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Every 2 weeks
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    $9.60 per shipment. Includes free priority shipping.
+                                </p>
+                            </div>
+                            <div class="makeselect__card" onclick="toggleSelect(this)">
+                                <h2 class="makeselect__subtitle">
+                                    Every month
+                                </h2>
+                                <p class="makeselect__subtext">
+                                    $12.00 per shipment. Includes free priority shipping.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="makeselect__order">
+                        <p class="makeselect__order__title">Order Summary</p>
+                        <h1 class="makeselect__order__text">
+                            “I drink my coffee as <span class="summary-item" data-question="filter"></span>,
+                            with a <span class="summary-item" data-question="bean"></span> type of bean.
+                            <span class="summary-item" data-question="weight"></span> ground ala
+                            <span class="summary-item" data-question="grind"></span>,
+                            sent to me <span class="summary-item" data-question="delivery"></span>.”
+                        </h1>
+                    </div>
+
+                    <button onclick="openModal()" class="makeselect__btn">Create my plan!</button>
+
+                    <div class="modal-overlay" id="modal">
+                        <div class="modal" id="modal-content">
+                            <button class="x-btn" onclick="closeModal()">✖</button>
+                            <div id="order-summary">
+                                <h2>Order Summary</h2>
+                                <p>
+                                    “I drink my coffee as <strong>Filter</strong>, with a <strong>Decaf</strong> type of
+                                    bean.
+                                    <strong>250g</strong> ground ala <strong>Cafetière</strong>, sent to me
+                                    <strong>Every Week</strong>.”
+                                </p>
+                                <p class="price">$14.00/mo</p>
+                                <button class="checkout-btn" onclick="completeOrder()">Checkout</button>
+                            </div>
+
+                            <div class="success" id="success-message">
+                                <div class="checkmark">✔</div>
+                                <h2>Order was place!</h2>
+                                <button class="close-btn" onclick="closeModal()">Yopish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function toggleSelect(element) {
+                    let parent = element.parentElement; // Kartalar joylashgan konteyner
+                    let questionType = parent.parentElement.getAttribute("data-question");
+                    let summaryItem = document.querySelector(`.summary-item[data-question="${questionType}"]`);
+
+                    // Shu savoldagi barcha kartalardan 'selected' classini olib tashlaymiz
+                    parent.querySelectorAll(".makeselect__card").forEach(card => {
+                        card.classList.remove("selected");
+                    });
+
+                    // Agar tanlanmagan bo'lsa, tanlaymiz
+                    if (!element.classList.contains("selected")) {
+                        element.classList.add("selected");
+                        if (summaryItem) {
+                            summaryItem.textContent = element.querySelector(".makeselect__subtitle").textContent;
+                            summaryItem.style.color = "#0E8784";
+                        }
+                    } else {
+                        if (summaryItem) {
+                            summaryItem.textContent = "—";
+                            summaryItem.style.color = "black";
+                        }
+                    }
+                }
+
+                // modal
+
+                function openModal() {
+                    document.getElementById("modal").classList.add("show");
+                }
+
+                function closeModal() {
+                    document.getElementById("modal").classList.remove("show");
+                }
+
+                function completeOrder() {
+                    document.getElementById("order-summary").style.display = "none"; // Eski kontentni yashirish
+                    document.getElementById("success-message").style.display = "flex"; // Yangi kontentni ko‘rsatish
+                }
+            </script>
+        </section>
+    </main>
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="telegram-btn" onclick="openTelegram()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="">
+        </div>
+        <div class="container footer__container">
+            <img src="../images/footer-logo.svg" alt="" class="footer__container__img">
+            <ul class="footer__container__list">
+                <li class="footer__container__list__items">
+                    <a href="../index.html" class="footer__container__list__items__link">
+                        HOME
+                    </a>
+                </li>
+                <li class="footer__container__list__items">
+                    <a href="../html/info.html" class="footer__container__list__items__link">
+                        ABOUT US
+                    </a>
+                </li>
+                <li class="footer__container__list__items">
+                    <a href="#" class="footer__container__list__items__link">
+                        CREATE YOUR PLAN
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__container__socials">
+                <a href="https://facebook.com" target="_blank" class="">
+                    <img src="../images/fb.svg" alt="" class="">
+                </a>
+                <a href="https://x.com" target="_blank" class="">
+                    <img src="../images/tw.svg" alt="" class="">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="">
+                    <img src="../images/insta.svg" alt="" class="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+
+</html>

@@ -13,7 +13,7 @@
     <!-- HEADER START -->
     <header class="header">
         <div class="container header__container">
-            <img src="./images/Group 5.svg" alt="rasm" class="header__container__logo">
+            <img src="./images/Group 5.svg" alt="" class="header__container__logo">
 
             <input type="checkbox" id="menu-toggle" class="header__container__checkbox">
             <label for="menu-toggle" class="header__container__menu">&#9776;</label>
@@ -23,10 +23,10 @@
                     <a href="#home" class="header__container__links">HOME</a>
                 </li>
                 <li class="header__container__items">
-                    <a href="#about" class="header__container__links">ABOUT US</a>
+                    <a href="./html/info.html" class="header__container__links">ABOUT US</a>
                 </li>
                 <li class="header__container__items">
-                    <a href="#create" class="header__container__links">CREATE YOUR PLAN</a>
+                    <a href="./html/make.html" class="header__container__links">CREATE YOUR PLAN</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
                     Start your mornings with the world’s best coffees. Try our <br>expertly curated artisan coffees from
                     our best roasters <br>delivered directly to your door, at your schedule.
                 </p>
-                <a href="#" class="hero__container__link">
+                <a href="./html/make.html" class="hero__container__link">
                     Create your plan
                 </a>
             </div>
@@ -104,7 +104,7 @@
         </section>
         <!-- COLLECTION END -->
         <!-- ABOUT START -->
-        <section class="about" id="about">
+        <section class="about">
             <div class="container about__container">
                 <h1 class="about__container__title">
                     Why choose us?
@@ -156,7 +156,7 @@
         </section>
         <!-- ABOUT END -->
         <!-- CREATE START -->
-        <section class="create" id="create">
+        <section class="create">
             <div class="container create__container">
                 <h1 class="create__container__title">
                     How it works
@@ -203,7 +203,7 @@
                         </p>
                     </div>
                 </div>
-                <a href="#" class="create__container__link">
+                <a href="./html/make.html" class="create__container__link">
                     Create your plan
                 </a>
             </div>
@@ -213,13 +213,8 @@
     <!-- FOOTER START -->
     <footer class="footer">
         <div class="telegram-btn" onclick="openTelegram()">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="">
         </div>
-        <script>
-            function openTelegram() {
-                window.open("https://t.me/universal_yt", "_blank");
-            }
-        </script>
         <div class="container footer__container">
             <img src="./images/footer-logo.svg" alt="" class="footer__container__img">
             <ul class="footer__container__list">
@@ -229,12 +224,12 @@
                     </a>
                 </li>
                 <li class="footer__container__list__items">
-                    <a href="#about" class="footer__container__list__items__link">
+                    <a href="./html/info.html" class="footer__container__list__items__link">
                         ABOUT US
                     </a>
                 </li>
                 <li class="footer__container__list__items">
-                    <a href="#create" class="footer__container__list__items__link">
+                    <a href="./html/make.html" class="footer__container__list__items__link">
                         CREATE YOUR PLAN
                     </a>
                 </li>
@@ -253,6 +248,11 @@
         </div>
     </footer>
     <!-- FOOTER END -->
+    <script>
+        function openTelegram() {
+            window.open("https://t.me/universal_yt", "_blank");
+        }
+    </script>
 </body>
 
 </html>
