@@ -3,10 +3,11 @@
 
     &__container {
         background-image: url(../images/Bitmap.png);
+        background-size: contain;
+        background-size: auto auto;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
-        background-size: 100%;
+        background-size: 100% 600px;
         height: 600px;
 
 
@@ -49,8 +50,8 @@
 
 }
 
-@media only screen and (max-width: 768px){
-    .hero{
+@media only screen and (max-width: 768px) {
+    .hero {
         margin: 0;
 
         &__container {
@@ -60,37 +61,37 @@
             background-size: 100%;
             align-items: center;
 
-            &__title{
+            &__title {
                 padding-left: 53px;
                 padding-top: 104px;
                 font-size: 48px;
             }
 
-            &__text{
+            &__text {
                 padding-left: 53px;
                 padding-top: 24px;
                 padding-bottom: 40px;
             }
 
-            &__link{
+            &__link {
                 margin-left: 53px;
             }
         }
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
-    .hero{
+    .hero {
         margin-top: 40px;
 
-        &__container{
+        &__container {
             max-width: 327px;
             flex-direction: column;
             background-size: contain;
             background-size: 100% 500px;
 
-            &__title{
+            &__title {
                 margin: 0;
                 padding: 0;
                 text-align: center;
@@ -98,7 +99,7 @@
                 padding-top: 100px;
             }
 
-            &__text{
+            &__text {
                 margin: 0;
                 padding: 0;
                 text-align: center;

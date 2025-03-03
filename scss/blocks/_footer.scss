@@ -35,6 +35,7 @@
         transform: scale(1);
         opacity: 0.6;
     }
+
     100% {
         transform: scale(2);
         opacity: 0;
@@ -48,6 +49,8 @@
 
 .footer {
     margin-top: 200px;
+    display: grid;
+    place-content: center;
 
     &__container {
         display: flex;
@@ -75,7 +78,8 @@
                     transition: color 0.3s;
 
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: #fff;
                     }
                 }
@@ -91,10 +95,10 @@
 
 @media only screen and (max-width: 768px) {
 
-    .footer{
+    .footer {
         margin-top: 144px;
 
-        &__container{
+        &__container {
             max-width: 689px;
             height: 270px;
             flex-direction: column;
@@ -106,14 +110,14 @@
 
 @media only screen and (max-width: 480px) {
 
-    .footer{
+    .footer {
         margin-top: 120px;
 
-        &__container{
+        &__container {
             max-width: 327px;
             height: 346px;
 
-            &__list{
+            &__list {
                 flex-direction: column;
                 text-align: center;
             }

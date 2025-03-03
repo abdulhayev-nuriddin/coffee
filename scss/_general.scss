@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -18,17 +18,21 @@ html{
     width: 1280px;
 }
 
-button, input, textarea {
+button,
+input,
+textarea {
     border: none;
     outline: none;
 }
 
-img, video {
+img,
+video {
     max-width: 100%;
     height: auto;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -36,10 +40,27 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Fraunces", serif;
 }
 
-p{
+p {
     font-family: "barlow";
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 689px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 327px;
+    }
 }

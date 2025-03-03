@@ -55,24 +55,24 @@
 
 @media only screen and (max-width: 768px) {
 
-    .about{
+    .about {
         margin-top: 144px;
 
-        &__container{
+        &__container {
             max-width: 689px;
 
-            &__title{
+            &__title {
                 padding-top: 56px;
                 font-size: 32px;
 
             }
 
-            &__cards{
+            &__cards {
                 flex-direction: column;
                 gap: 24px;
                 align-items: center;
 
-                &__card{
+                &__card {
                     width: 573px;
                     height: 180px;
                     display: flex;
@@ -82,7 +82,7 @@
                     align-items: center;
                     text-align: left;
 
-                    &__title{
+                    &__title {
                         margin-top: 0;
                     }
                 }
@@ -93,28 +93,28 @@
 
 @media only screen and (max-width: 480px) {
 
-    .about{
+    .about {
         margin-top: 120px;
 
-        &__container{
+        &__container {
             max-width: 327px;
             height: 902px;
 
-            &__title{
+            &__title {
                 text-align: center;
                 padding-top: 64px;
                 font-size: 28px;
             }
 
-            &__text{
+            &__text {
                 max-width: 279px;
                 width: 100%;
                 text-align: center;
             }
 
-            &__cards{
+            &__cards {
 
-                &__card{
+                &__card {
                     width: 279px;
                     height: 382px;
                     flex-direction: column;

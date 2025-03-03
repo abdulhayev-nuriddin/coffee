@@ -54,25 +54,25 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .collection{
+    .collection {
         margin: 0;
-        
-        &__container{
+
+        &__container {
             max-width: 689px;
 
-            &__boxes{
+            &__boxes {
                 flex-direction: column;
                 align-items: center;
                 gap: 32px;
                 padding-top: 59px;
 
-                &__box{
+                &__box {
                     display: flex;
                     width: 573px;
                     text-align: left;
                 }
 
-                &__box4{
+                &__box4 {
                     display: flex;
                     width: 573px;
                     text-align: left;
@@ -84,23 +84,23 @@
 
 @media only screen and (max-width: 480px) {
 
-    .collection{
+    .collection {
         margin-top: 120px;
 
-        &__container{
+        &__container {
             max-width: 327px;
             flex-direction: column;
-            
 
-            &__boxes{
 
-                &__box{
+            &__boxes {
+
+                &__box {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
                 }
 
-                &__box4{
+                &__box4 {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
